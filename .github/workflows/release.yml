@@ -78,12 +78,12 @@ jobs:
         run: |
           mkdir -p package
           cd package
-          zip -r "${AUTHOR}-${MOD_NAME}_v${VERSION}.zip" SPT
+          zip -r "${MOD_NAME}_v${VERSION}.zip" SPT
       - name: Upload zipped mod
         uses: actions/upload-artifact@v4
         with:
           name: mod_package
-          path: package/${{ env.AUTHOR }}-${{ env.MOD_NAME }}_v${{ env.VERSION }}.zip
+          path: package/${{ env.MOD_NAME }}_v${{ env.VERSION }}.zip
   
   release:
     runs-on: ubuntu-latest
