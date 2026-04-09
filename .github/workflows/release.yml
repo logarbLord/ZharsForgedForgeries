@@ -66,11 +66,17 @@ jobs:
           if [ -n "$BUNDLES_DIR" ] && [ -n "$BUNDLES_JSON" ]; then
             echo "Found bundles/ and bundles.json, adding to package"
             rsync -av "$BUNDLES_DIR"/ "$TARGET/bundles/"
+            rsync -av "$BUNDLES_JSON" "$TARGET/"
           fi
-          
+          DB_DIR=$(find . -type d -name "db" | head -n 1)
+          if [ -n "$DB_DIR" ]; then
+            echo "Found db/, adding to package"
+            rsync -av "$DB_DIR"/ "$TARGET/db/"
+          fi
+
       - name: Zip mod folder
         run: |
-          mkdir -p package  # ✅ Ensure package folder exists
+          mkdir -p package
           cd package
           zip -r "${AUTHOR}-${MOD_NAME}_v${VERSION}.zip" SPT
       - name: Upload zipped mod
@@ -88,14 +94,14 @@ jobs:
 
       - name: Download mod artifact
         uses: actions/download-artifact@v4
-        
+
       - name: Extract tag name from zip
         run: |
           ZIPFILE=$(basename mod_package/*.zip)
           TAGNAME=$(echo "$ZIPFILE" | grep -oP '_v\K[0-9]+\.[0-9]+\.[0-9]+')
           echo "ZIPNAME=$ZIPFILE" >> $GITHUB_ENV
           echo "TAGNAME=v$TAGNAME" >> $GITHUB_ENV
-          
+
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
