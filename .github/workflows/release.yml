@@ -53,7 +53,7 @@ jobs:
             echo "No Release output folder found" && exit 1
           fi
           INNER=$(find "$OUTDIR" -mindepth 1 -maxdepth 1 -type d | head -n 1)
-          TARGET="package/SPT/user/mods/$AUTHOR-$MOD_NAME"
+          TARGET="package/SPT/user/mods/$MOD_NAME"
           echo "Packaging mod into $TARGET"
           mkdir -p "$TARGET"
           rsync -av \
