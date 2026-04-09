@@ -1,0 +1,53 @@
+{  "69d73898c3eabba839aee6d5": {
+  "itemTplToClone": "6193d3149fb0c665d5490e32",
+  "parentId": "5448bc234bdc2d3c308b4569",
+  "handbookParentId": "5b5f754a86f774094242f19b",
+  "overrideProperties": {
+    "Prefab": {
+      "path": "MalboroUSP/malboromagazine.bundle"
+    },
+    "CanSellOnRagfair": true
+  },
+  "locales": {
+    "en": {
+      "name": "Malboro Magazine",
+      "shortName": "MAL MAG",
+      "description": "A custom-painted Malboro cigarette themed .45 USP Tactical Magazine"
+    }
+  },
+  "fleaPriceRoubles": 4200,
+  "handbookPriceRoubles": 3500,
+  "addtoInventorySlots": [],
+  "addtoModSlots": true,
+  "modSlot": ["mod_magazine"],
+  "addtoTraders": false,
+  "traders": {},
+  "addtoBots": false,
+  "addtoStaticLootContainers": false,
+  "staticLootContainers": [
+    { 
+      "containerName": "weapon_box",
+      "probability": 10
+    }
+  ],
+  "masteries": false,
+  "masterySections": null,
+  "addWeaponPreset": false,
+  "weaponPresets": null,
+  "addtoHallOfFame": false,
+  "hallOfFameSlots": null,
+  "addtoSpecialSlots": false,
+  "addtoGeneratorAsFuel": false,
+  "generatorFuelSlotStages": null,
+  "addtoHideoutPosterSlots": false,
+  "addPosterToMaps": false,
+  "posterSpawnProbability": null,
+  "addtoStatuetteSlots": false,
+  "addCaliberToAllCloneLocations": false,
+  "addtoStaticAmmo": false,
+  "staticAmmoProbability": null,
+  "addtoEmptyPropSlots": false,
+  "emptyPropSlot": null,
+  "addtoSecureFilters": false
+}
+}

@@ -1,0 +1,159 @@
+{
+  "69d6b51c386528391de4ead6": {
+    "itemTplToClone": "6193a720f8ee7e52e42109ed",
+    "parentId": "5447b5cf4bdc2d65278b4567",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "overrideProperties": {
+          "Prefab": {
+          "path": "MalboroUSP/malborousp.bundle"
+        },
+        "CanSellOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "Malboro USP",
+        "shortName": "MAL USP",
+        "description": "My Chain-Smoking Mother and Father died during the blue light event, I spent 9,500 Malboro points on this pistol."
+      }
+    },
+    "fleaPriceRoubles": 30000,
+    "handbookPriceRoubles": 14800,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": null,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_BOX_FULL_OF_JUNK",
+        "probability": 10
+      },
+      {
+        "containerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
+        "probability": 10
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 10
+      },
+      {
+        "containerName": "LOOTCONTAINER_SCAV_BODY",
+        "probability": 10
+      }
+    ],
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "USP",
+        "Templates": [
+          "69d6b51c386528391de4ead6"
+        ]
+      }
+    ],
+    "addWeaponPreset": true,
+    "weaponPresets": [{
+      "_changeWeaponName": false,
+      "_encyclopedia": "69d6b51c386528391de4ead6",
+      "_id": "69d6b7c09dff8038bee4ead8",
+      "_items": [
+        {
+          "_id": "69d6b7dc6d697a528ee4ead9",
+          "_tpl": "69d6b51c386528391de4ead6",
+          "upd": {
+            "FireMode": {
+              "FireMode": "single"
+            }
+          }
+        },
+        {
+          "_id": "69d6b832305ffa6d55e4eada",
+          "_tpl": "69d6d1b67a9bfe43395c3182",
+          "parentId": "69d6b7dc6d697a528ee4ead9",
+          "slotId": "mod_barrel"
+        },
+        {
+          "_id": "69d6b841cf2c9ff47ae4eadb",
+          "_tpl": "69d733fb27416c2e7faee6d4",
+          "parentId": "69d6b7dc6d697a528ee4ead9",
+          "slotId": "mod_reciever"
+        },
+        {
+          "_id": "69d6b856f85072558de4eadc",
+          "_tpl": "61963a852d2c397d660036ad",
+          "parentId": "69d6b841cf2c9ff47ae4eadb",
+          "slotId": "mod_sight_rear"
+        },
+        {
+          "_id": "69d738b9a43374dcaaaee6d6",
+          "_tpl":"577d141e24597739c5255e01",
+          "parentId": "69d6b856f85072558de4eadc",
+          "slotId": "mod_scope"
+        },
+        {
+          "_id": "69d6b85e51e475c711e4eadd",
+          "_tpl": "6194f35c18a3974e5e7421e6",
+          "parentId": "69d6b841cf2c9ff47ae4eadb",
+          "slotId": "mod_sight_front"
+        },
+        {
+          "_id": "69d6b86307fdc1f834e4eade",
+          "_tpl": "69d73898c3eabba839aee6d5",
+          "parentId": "69d6b7dc6d697a528ee4ead9",
+          "slotId": "mod_magazine"
+        },
+        {
+          "_id": "69d6b868133ea5df15e4eadf",
+          "_tpl": "69d715cda726866152aee6d3",
+          "parentId": "69d6b7dc6d697a528ee4ead9",
+          "slotId": "mod_trigger"
+        },
+        {
+          "_id": "69d6b86b87a6988937e4eae0",
+          "_tpl": "69d6e9068327f8a978aee6d1",
+          "parentId": "69d6b7dc6d697a528ee4ead9",
+          "slotId": "mod_hammer"
+        },
+        {
+          "_id": "69d6b870ac641cbc08e4eae1",
+          "_tpl": "69d7136b53a7485253aee6d2",
+          "parentId": "69d6b7dc6d697a528ee4ead9",
+          "slotId": "mod_catch"
+        },
+        {
+          "_id": "69d739d16cde73a9f5aee6d7",
+          "_tpl": "6196255558ef8c428c287d1c",
+          "parentId": "69d6b7dc6d697a528ee4ead9",
+          "slotId": "mod_mount_000"
+        },
+        {
+          "_id": "69d739d34cc3a2d033aee6d8",
+          "_tpl": "56def37dd2720bec348b456a",
+          "parentId": "69d739d16cde73a9f5aee6d7",
+          "slotId": "mod_tactical"
+        }
+      ],
+      "_name": "USP MALBORO DEFAULT",
+      "_parent": "69d6b7dc6d697a528ee4ead9",
+      "_type": "Preset"
+    }
+    ],
+    "addtoHallOfFame": false,
+    "hallOfFameSlots": null,
+    "addtoSpecialSlots": false,
+    "addtoGeneratorAsFuel": false,
+    "generatorFuelSlotStages": null,
+    "addtoHideoutPosterSlots": false,
+    "addPosterToMaps": false,
+    "posterSpawnProbability": null,
+    "addtoStatuetteSlots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": false,
+    "staticAmmoProbability": null,
+    "addtoEmptyPropSlots": false,
+    "emptyPropSlot": null,
+    "addtoSecureFilters": false
+  }
+}

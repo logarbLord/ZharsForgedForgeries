@@ -1,0 +1,53 @@
+{  "69d6e9068327f8a978aee6d1": {
+  "itemTplToClone": "6193d3be7c6c7b169525f0da",
+  "parentId": "5a74651486f7744e73386dd1",
+  "handbookParentId": "5b5f74cc86f77447ec5d770a",
+  "overrideProperties": {
+    "Prefab": {
+      "path": "MalboroUSP/malborohammer.bundle"
+    },
+    "CanSellOnRagfair": false
+  },
+  "locales": {
+    "en": {
+      "name": "MalboroHammer",
+      "shortName": "MAL HMR",
+      "description": "A custom hammer for the Malboro-edition .45 USP"
+    }
+  },
+  "fleaPriceRoubles": 1200,
+  "handbookPriceRoubles": 750,
+  "addtoInventorySlots": [],
+  "addtoModSlots": true,
+  "modSlot": ["mod_hammer"],
+  "addtoTraders": false,
+  "traders": {},
+  "addtoBots": false,
+  "addtoStaticLootContainers": false,
+  "staticLootContainers": [
+    { 
+      "containerName": "weapon_box",
+      "probability": 10
+    }
+  ],
+  "masteries": false,
+  "masterySections": null,
+  "addWeaponPreset": false,
+  "weaponPresets": null,
+  "addtoHallOfFame": false,
+  "hallOfFameSlots": null,
+  "addtoSpecialSlots": false,
+  "addtoGeneratorAsFuel": false,
+  "generatorFuelSlotStages": null,
+  "addtoHideoutPosterSlots": false,
+  "addPosterToMaps": false,
+  "posterSpawnProbability": null,
+  "addtoStatuetteSlots": false,
+  "addCaliberToAllCloneLocations": false,
+  "addtoStaticAmmo": false,
+  "staticAmmoProbability": null,
+  "addtoEmptyPropSlots": false,
+  "emptyPropSlot": null,
+  "addtoSecureFilters": false
+}
+}

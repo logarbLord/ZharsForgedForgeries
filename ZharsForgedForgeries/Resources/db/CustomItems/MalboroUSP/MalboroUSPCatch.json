@@ -1,0 +1,53 @@
+{  "69d7136b53a7485253aee6d2": {
+  "itemTplToClone": "6193d5d4f8ee7e52e4210a1b",
+  "parentId": "5a74651486f7744e73386dd1",
+  "handbookParentId": "5b5f74cc86f77447ec5d770a",
+  "overrideProperties": {
+    "Prefab": {
+      "path": "MalboroUSP/malborocatch.bundle"
+    },
+    "CanSellOnRagfair": false
+  },
+  "locales": {
+    "en": {
+      "name": "Malboro Catch",
+      "shortName": "MAL CTH",
+      "description": "Slide Catch for the Malboro-edition .45 USP"
+    }
+  },
+  "fleaPriceRoubles": 500,
+  "handbookPriceRoubles": 500,
+  "addtoInventorySlots": [],
+  "addtoModSlots": true,
+  "modSlot": ["mod_catch"],
+  "addtoTraders": false,
+  "traders": {},
+  "addtoBots": false,
+  "addtoStaticLootContainers": false,
+  "staticLootContainers": [
+    { 
+      "containerName": "weapon_box",
+      "probability": 10
+    }
+  ],
+  "masteries": false,
+  "masterySections": null,
+  "addWeaponPreset": false,
+  "weaponPresets": null,
+  "addtoHallOfFame": false,
+  "hallOfFameSlots": null,
+  "addtoSpecialSlots": false,
+  "addtoGeneratorAsFuel": false,
+  "generatorFuelSlotStages": null,
+  "addtoHideoutPosterSlots": false,
+  "addPosterToMaps": false,
+  "posterSpawnProbability": null,
+  "addtoStatuetteSlots": false,
+  "addCaliberToAllCloneLocations": false,
+  "addtoStaticAmmo": false,
+  "staticAmmoProbability": null,
+  "addtoEmptyPropSlots": false,
+  "emptyPropSlot": null,
+  "addtoSecureFilters": false
+}
+}

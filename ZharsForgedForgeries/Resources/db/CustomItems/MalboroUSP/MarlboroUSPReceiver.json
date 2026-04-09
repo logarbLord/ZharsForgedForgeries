@@ -1,0 +1,53 @@
+{  "69d733fb27416c2e7faee6d4": {
+  "itemTplToClone": "6194f5a318a3974e5e7421eb",
+  "parentId": "55818a304bdc2db5418b457d",
+  "handbookParentId": "5b5f764186f77447ec5d7714",
+  "overrideProperties": {
+    "Prefab": {
+      "path": "MalboroUSP/malbororeceiver.bundle"
+    },
+    "CanSellOnRagfair": true
+  },
+  "locales": {
+    "en": {
+      "name": "Malboro Receiver",
+      "shortName": "MAL REC",
+      "description": "A custom-painted receiver for the Malboro-edition .45 USP"
+    }
+  },
+  "fleaPriceRoubles": 4500,
+  "handbookPriceRoubles": 3600,
+  "addtoInventorySlots": [],
+  "addtoModSlots": true,
+  "modSlot": ["mod_reciever"],
+  "addtoTraders": false,
+  "traders": {},
+  "addtoBots": false,
+  "addtoStaticLootContainers": false,
+  "staticLootContainers": [
+    { 
+      "containerName": "weapon_box",
+      "probability": 10
+    }
+  ],
+  "masteries": false,
+  "masterySections": null,
+  "addWeaponPreset": false,
+  "weaponPresets": null,
+  "addtoHallOfFame": false,
+  "hallOfFameSlots": null,
+  "addtoSpecialSlots": false,
+  "addtoGeneratorAsFuel": false,
+  "generatorFuelSlotStages": null,
+  "addtoHideoutPosterSlots": false,
+  "addPosterToMaps": false,
+  "posterSpawnProbability": null,
+  "addtoStatuetteSlots": false,
+  "addCaliberToAllCloneLocations": false,
+  "addtoStaticAmmo": false,
+  "staticAmmoProbability": null,
+  "addtoEmptyPropSlots": false,
+  "emptyPropSlot": null,
+  "addtoSecureFilters": false
+}
+}

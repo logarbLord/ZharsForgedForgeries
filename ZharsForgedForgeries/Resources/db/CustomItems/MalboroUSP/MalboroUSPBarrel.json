@@ -1,0 +1,54 @@
+{
+  "69d6d1b67a9bfe43395c3182": {
+    "itemTplToClone": "6194ef39de3cdf1d2614a768",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+          "Prefab": {
+          "path": "MalboroUSP/malborobarrel.bundle"
+        },
+        "CanSellOnRagfair": true
+    },
+    "locales": {
+      "en": {
+        "name": "Malboro Barrel",
+        "shortName": "MAL BRL",
+        "description": "A 122mm .45 acp barrel painted to resemble a Malboro branded cigarette"
+      }
+    },
+    "fleaPriceRoubles": 3000,
+    "handbookPriceRoubles": 1400,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": ["mod_barrel"],
+    "addtoTraders": false,
+    "traders": {},
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "weapon_box",
+        "probability": 10
+      }
+    ],
+    "masteries": false,
+    "masterySections": null,
+    "addWeaponPreset": false,
+    "weaponPresets": null,
+    "addtoHallOfFame": false,
+    "hallOfFameSlots": null,
+    "addtoSpecialSlots": false,
+    "addtoGeneratorAsFuel": false,
+    "generatorFuelSlotStages": null,
+    "addtoHideoutPosterSlots": false,
+    "addPosterToMaps": false,
+    "posterSpawnProbability": null,
+    "addtoStatuetteSlots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": false,
+    "staticAmmoProbability": null,
+    "addtoEmptyPropSlots": false,
+    "emptyPropSlot": null,
+    "addtoSecureFilters": false
+  }
+}
