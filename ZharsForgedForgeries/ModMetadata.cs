@@ -18,7 +18,7 @@ public record ModMetadata : AbstractModMetadata
 
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("2.0.15") }
+        { "com.wtt.commonlib", new Range("2.0.17") }
     };
 
     public override string? Url { get; init; }
